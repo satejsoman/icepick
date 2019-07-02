@@ -25,7 +25,7 @@ icepick
 ```
 
 ## pass in `pip freeze` options
-all script options are passed through to `pip freeze` (though `stderr` is redirected to `/dev/null` so if you pass in a non-existent option, error messages will just be suppressed)
+all script options are passed through to `pip freeze`
 ```
 icepick --exclude-editable
 ```

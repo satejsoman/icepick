@@ -14,7 +14,7 @@ clone the repo/download the script somewhere safe, and add an alias in your shel
 ```bash
 alias icepick=/path/to/script/icepick.sh
 ```
-i'll figure out how to package and release this later
+i'll figure out how to properly package and release this later
 
 # use 
 ## basic
@@ -29,7 +29,6 @@ all script options are passed through to `pip freeze` (though `stderr` is redire
 ```
 icepick --exclude-editable
 ```
-currently disables the `-r <requirements.txt>` flag by passing the output of `pip freeze` to `sort` because the call to `join` requires sorted input 
 
 
 ## set `pip` executable

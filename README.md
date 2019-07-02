@@ -39,3 +39,5 @@ pip=pip3 icepick
 pip=./venv/bin/pip3 icepick 
 ```
 
+# caveats
+the tool can't handle module aliases e.g. `PIL` provided by `Pillow` 
